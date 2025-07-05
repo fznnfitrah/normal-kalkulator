@@ -27,7 +27,6 @@ numbers.forEach(number =>{
 // mengambil operator
 let operators = document.querySelectorAll(".operan");
 operators.forEach(operan =>{
-
     operan.addEventListener("click", () =>{
         if( justCalculated == true ) {
             justCalculated = false; 
@@ -51,7 +50,6 @@ operators.forEach(operan =>{
 let equal = "";
 const hasil = document.getElementById("equal")
 hasil.addEventListener("click", ()=> {
-    
     calculate();
     num = "";
     result.innerHTML = equal;
@@ -90,12 +88,10 @@ clear.addEventListener("click", ()=> {
 // Mengambil desimal
 const desimal = document.querySelector("#decimal");
 desimal.addEventListener("click", ()=> {
-    
     if( num.includes(".") ) {
         num = num
     } else {
         num = num + "."
     }
-
     result.innerHTML = num;
 })

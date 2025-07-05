@@ -10,6 +10,7 @@ body {
 main {
     border: 3px solid black;
     padding: 30px;
+    background-color: #FFFBDE;
 
 }
 
@@ -17,11 +18,14 @@ header {
     border: 3px solid black;
     text-align: center;
     width: 200px;
+    background-color: #4682A9;
+
 }
 
 .kolom-hasil{
     border: 3px solid black;
     margin: 10px auto;
+    background-color: #91C8E4;
 }
 
 section {
@@ -30,9 +34,12 @@ section {
     flex-wrap: wrap;
     width: 200px;
     justify-content: space-around;
+    gap: 5px;
+    background-color: #4682A9;
 
 }
 
 button {
     padding: 10px;
+    width: 40px;
 }
