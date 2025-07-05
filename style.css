@@ -11,13 +11,14 @@ main {
     border: 3px solid black;
     padding: 30px;
     background-color: #FFFBDE;
-
+    box-sizing: border-box;
+    max-width: 300px;
 }
 
 header {
     border: 3px solid black;
     text-align: center;
-    width: 200px;
+    max-width: auto;
     background-color: #4682A9;
 
 }
@@ -26,20 +27,25 @@ header {
     border: 3px solid black;
     margin: 10px auto;
     background-color: #91C8E4;
+    max-width: auto;
 }
 
 section {
     border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
-    width: 200px;
+    max-width: auto;
     justify-content: space-around;
     gap: 5px;
     background-color: #4682A9;
-
+    padding: 3px;
 }
 
 button {
     padding: 10px;
-    width: 40px;
+    width: 71px;
+}
+
+#decimal, #equal {
+    flex: 2;
 }
